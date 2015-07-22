@@ -1,0 +1,88 @@
+* {
+	border-radius: 0 !important;
+}
+
+.footer {
+	background-color: #F8F8F8;
+	border: 1px solid #E7E7E7;
+	color: #777;
+	font-size: 12px;
+}
+
+.footer p {
+	margin: 0;
+}
+
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+.row-a {
+	display: block;
+	color: #23527c;
+}
+
+.row-a:hover {
+	text-decoration: none;
+}
+
+.pagination {
+	margin: 0;
+	padding-top: 5px;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: #23527c;
+}
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background-color: #23527c;
+	border-color: #DDD;
+}
+
+.table-n {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.table-n th {
+	color: gray;
+	padding: 3px;
+	text-align: center;
+}
+
+.table-n td {
+	text-align: center;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.table-n thead tr:first-child {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.table-n tfoot tr:first-child {
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.table-u {
+	width: 100%;
+}
+
+.table-u thead tr:first-child {
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.table-u td {
+	border: 1px solid gray;
+}
+
+.table-r td {
+	border: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
